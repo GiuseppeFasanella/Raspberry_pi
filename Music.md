@@ -11,3 +11,7 @@ crontab -e
 
 per leggerlo:
 crontab -l
+
+Se il job e' corretto, quando chiudi il file ti scrive
+
+crontab: installing new crontab
