@@ -15,3 +15,9 @@ crontab -l
 Se il job e' corretto, quando chiudi il file ti scrive
 
 crontab: installing new crontab
+
+Questo link mi sembra utissimo
+https://www.raspberrypi.org/forums/viewtopic.php?t=92013&p=642819
+
+Io ho scritto questo e funziona perfettamente
+16 10 * * * /usr/bin/mplayer Scrivania/Test_intervalli/0.wav
