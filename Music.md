@@ -4,13 +4,21 @@ https://www.raspberrypi.org/documentation/usage/audio/
 
 google-chrome http://www.radiorai.rai.it/dl/portaleRadio/popup/player_radio.html?v=3
 
+* musiq3
+
+http://www.rtbf.be/radio/liveradio/musiq3
+
+* bbc
+
+http://www.bbc.co.uk/radio/player/bbc_radio_three
+
 crontab -e
 
 34 22 * * * export DISPLAY=:0 && google-chrome --new-window https://www.raspberrypi.org/documentation/linux/usage/cron.md
 
 37 22 * * * export DISPLAY=:0 && google-chrome --new-window http://www.radiorai.rai.it/dl/portaleRadio/popup/player_radio.html?v=3
 
-per leggerlo:
+per leggere i compiti che gli chiedi di eseguire:
 crontab -l
 
 Se il job e' corretto, quando chiudi il file ti scrive
@@ -23,4 +31,4 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=92013&p=642819
 Io ho scritto questo e funziona perfettamente
 16 10 * * * /usr/bin/mplayer Scrivania/Test_intervalli/0.wav
 
-http://www.bbc.co.uk/radio/player/bbc_radio_three
+
