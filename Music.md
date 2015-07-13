@@ -38,3 +38,9 @@ Per avere accesso alle info di quello che ha fatto CRON
 cat /var/log/syslog | grep -i cron
 
 Per killarlo:
+
+ps -o pid,sess,cmd afx | grep -A20 "cron$"
+
+e poi
+
+immaginetta
