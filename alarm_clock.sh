@@ -3,6 +3,7 @@
 #To-do: 
 #change $1 into the absolute path         
 #allow the script to play several times the same file
+#how to kill everyything?
 
 cd $1
 
