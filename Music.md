@@ -31,6 +31,10 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=92013&p=642819
 Io ho scritto questo e funziona perfettamente
 16 10 * * * /usr/bin/mplayer Scrivania/Test_intervalli/0.wav
 
+28 22 * * * /home/gfasanel/bin/alarm_clock.sh /home/gfasanel/Scrivania/Messiah_testing/
+
 Per avere accesso alle info di quello che ha fatto CRON
 
 cat /var/log/syslog | grep -i cron
+
+Per killarlo:
