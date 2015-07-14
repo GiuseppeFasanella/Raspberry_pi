@@ -39,6 +39,10 @@ cat /var/log/syslog | grep -i cron
 
 Per killarlo:
 
+pgrep -u gfasanel cron
+
+pkill -u gfasanel cron
+
 ps -o pid,sess,cmd afx | grep -A20 "cron$"
 
 e poi
