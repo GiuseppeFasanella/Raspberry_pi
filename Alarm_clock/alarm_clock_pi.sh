@@ -9,7 +9,7 @@ play(){
         file_to_play=$(head -1 list.dat)
         #echo "file to play is " ${file_to_play}                                                                                                                                 
         #Use the absolute path, otherwise it doesn't work properly                                                                                                               
-        omxplayer $1${file_to_play}
+        usr/bin/omxplayer $1${file_to_play}
         sed -i "/${file_to_play}/d" $1list.dat
     done
 }
