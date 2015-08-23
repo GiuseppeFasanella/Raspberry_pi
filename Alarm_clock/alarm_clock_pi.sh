@@ -17,7 +17,8 @@ play(){
 if [ -e list.dat ];then
     play $1
 else
-    ls > list.dat; sed -i "/list.dat/d" list.dat;
+    #ls -v: ordina in base ai numeri cardinali 1,2,3,..... altimenti farebbe 10,1,2,3,4,5....
+    ls -v > list.dat; sed -i "/list.dat/d" list.dat;
     #list.dat should not be in the list of files                                                                                                                                 
     play $1
 fi
