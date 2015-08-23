@@ -21,3 +21,15 @@ emacs ~/.config/openbox/lxde-pi-rc.xml
   `</keybind>`
   
 `</keyboard>` Devi inserire quanto segue all'interno del keyboard tag, che ci sara' gia' se ci sono gia' altri shortcuts
+
+**Esempio**: con F4 apri un terminale
+
+`<keybind key="F4">`
+
+`<action name="Execute">`
+
+	`<execute>lxterminal</execute>`
+
+    `</action>`
+
+`</keybind>`
