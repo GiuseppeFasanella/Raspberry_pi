@@ -14,7 +14,7 @@
     
       <action name="Execute">
       
-        <command>home/pi/Desktop/Sveglia_mattutina/killer_alarm_pi.sh</command>
+        <command>/home/pi/Desktop/Sveglia_mattutina/killer_alarm_pi.sh</command>
         
       </action>
       
