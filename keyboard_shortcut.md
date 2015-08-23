@@ -33,3 +33,5 @@ emacs ~/.config/openbox/lxde-pi-rc.xml
     `</action>`
 
 `</keybind>`
+
+**Riavvia il raspberry per rendere operativi i cambiamenti apportati**
