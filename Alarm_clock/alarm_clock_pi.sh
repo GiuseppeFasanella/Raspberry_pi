@@ -14,7 +14,8 @@ play(){
     done
 }
 
-if [ -e list.dat ];then
+# play file if list.dat exists and it's not empty (size is not zero)
+if [ -e list.dat ] && [ -s list.dat ];then
     play $1
 else
     #ls -v: ordina in base ai numeri cardinali 1,2,3,..... altimenti farebbe 10,1,2,3,4,5....
