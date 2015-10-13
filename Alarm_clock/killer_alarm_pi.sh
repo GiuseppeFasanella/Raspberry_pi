@@ -1,2 +1,5 @@
-#! /bin/bash                                                                                                                                                                                                        
-pkill -s $(ps -o pid,sess,cmd afx | grep -A20 "cron$" | grep "alarm_clock_pi.sh" | head -1 | cut -f2 -d ' ')
+#! /bin/bash    
+pkill alarm_clock_pi
+pkill omxplayer
+#pkill manda SIGTERM a tutti i processi il cui nome contiene il pattern specificato
+#killall invece manda SIGTERM a tutti i processi il cui esatto nome e' quello che gli passi
