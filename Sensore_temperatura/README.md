@@ -1,7 +1,12 @@
 
 
 Prossimi passi:
-cronjob che lancia uno script ogni ora. Lo script prende la data, l'ora e la temperatura e la scrive su file (>>file.dat). Poi dovresi fare il parsing di file.dat e insomma avere un file.html leggibile da browser
+cronjob che lancia uno script ogni ora. Lo script prende la data, l'ora e la temperatura e la scrive su file (>>file.txt). Poi dovresi fare il parsing di file.dat e insomma avere un file.html leggibile da browser
+
+#00 * * * 1-7 /home/pi/Desktop/Sensore_temperatura/check_temp.sh
+
+Fatto e funziona. Il .txt lo metti su /var/www/ del server apache e cosi' lo puoi consultare da remoto.
+Perfetto!
 
 poi sto file.html lo metti in /var/log (quindi devi avere installato il server apache sul raspberry) cosi' che posso vedere i numeretti dall'esterno
 
