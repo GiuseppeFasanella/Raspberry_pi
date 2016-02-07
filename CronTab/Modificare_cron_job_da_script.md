@@ -7,3 +7,8 @@ Nota che non e' la soluzione ottimale, visto che tutte le righe vengono riscritt
 che vuoi cambiare tu, ma insomma, quanti cronjob hai tu?
 
 Importante il `| crontab -` alla fine altrimenti i cronjob NON vengono aggiornati
+
+```
+#Schiaffa questo in uno script
+crontab -l | awk -v min=$1 -v hours=$2 '{ if ($3 == "*" && $6 ~ /mplayer/ ) {$1 = min; $2 = hours; print} else {print} }' | crontab -
+```
