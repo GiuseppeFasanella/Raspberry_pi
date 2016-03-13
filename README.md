@@ -7,6 +7,9 @@ Reindirizza la porta ssh scelta per andare sul raspberry --> cosi' puoi scrivere
 
 Reindirizza la porta 80 per andare sul raspberry --> cosi' sul browser puoi scrivere usersif.ddns.net e finisci su /var/www del raspberry
 
+Installa apache server e proteggi il tuo sito
+https://github.com/GiuseppeFasanella/My_utilities/blob/master/Networks/Apache_server.md
+
 Setta tutto per remote desktop viewer:
 ```
 (sul raspberry)
