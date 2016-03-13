@@ -3,6 +3,10 @@
 Init
 https://github.com/GiuseppeFasanella/My_utilities/blob/master/Networks/README.md
 
+Reindirizza la porta ssh scelta per andare sul raspberry --> cosi' puoi scrivere ssh -p xxx pi@usersif.ddns.net
+
+Reindirizza la porta 80 per andare sul raspberry --> cosi' sul browser puoi scrivere usersif.ddns.net e finisci su /var/www del raspberry
+
 Setta tutto per remote desktop viewer:
 ```
 (sul raspberry)
@@ -10,6 +14,10 @@ Setta tutto per remote desktop viewer:
 sudo apt-get install xrdp
 xrdp sesman.  This shows you that xrdp is installed and automatically starting up on start up of your Pi
 ```
+
+A  questo punto puoi usare da ubuntu "Remmina" e condividere la schermata del raspberry
+
+
 
 https://www.raspberrypi.org/help/
 
