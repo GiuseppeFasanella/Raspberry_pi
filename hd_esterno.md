@@ -21,3 +21,9 @@ emacs index.html
 Quando decidi di smontare il disco:
 umount /dev/sda1
 ```
+
+Le volte dopo ti basta fare:
+```
+sudo umount /dev/sda1
+sudo mount /dev/sda1 /mnt/usb_drive
+```
