@@ -26,4 +26,9 @@ Le volte dopo ti basta fare:
 ```
 sudo umount /dev/sda1
 sudo mount /dev/sda1 /mnt/usb_drive
+
+puoi anche montare il disco
+sshfs -p 3005 root@usersif.ddns.net:/mnt/usb_drive/ /home/gfasanel/Scrivania/remote_dir
+
+sudo umount /home/gfasanel/Scrivania/remote_dir
 ```
