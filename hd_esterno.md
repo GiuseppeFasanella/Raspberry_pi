@@ -12,6 +12,7 @@ umount /dev/sda1
 mkdir /mnt/usb_drive
 chmod 777 /mnt/usb_drive/
 ln -s /mnt/usb_drive/ usb_drive_soft_link
+chmod 777 usb_drive_soft_link
 mount /dev/sda1 /mnt/usb_drive
 
 emacs index.html
