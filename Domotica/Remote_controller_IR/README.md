@@ -4,6 +4,7 @@ software per media center:XBMC
 ```
 Telecomando ID
 Sensore IR siglato TSOPxxxx
+Io ho comprato récepteur IR rayonnement infrarouge Module 38KHz TSOP4838 DIP - 3
 jumper wire
 ```
 
