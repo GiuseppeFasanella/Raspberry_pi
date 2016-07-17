@@ -2,7 +2,15 @@
 
 Connetti il raspberry al modem tramite l'ethernet
 
-Init -> setta ssh
+cambia la passwd di pi e di root:
+```
+#cambia la password di pi
+passwd
+#Per cambiare la password di root:
+sudo su (cosi' via in root)
+passwd
+```
+setta ssh (e consenti root access via ssh)
 https://github.com/GiuseppeFasanella/My_utilities/blob/master/Networks/README.md
 
 Reindirizza la porta ssh scelta per andare sul raspberry --> cosi' puoi scrivere ssh -p xxx pi@usersif.ddns.net
