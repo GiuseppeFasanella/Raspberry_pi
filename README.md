@@ -1,6 +1,8 @@
 # Raspberry_pi
 
-Init
+Connetti il raspberry al modem tramite l'ethernet
+
+Init -> setta ssh
 https://github.com/GiuseppeFasanella/My_utilities/blob/master/Networks/README.md
 
 Reindirizza la porta ssh scelta per andare sul raspberry --> cosi' puoi scrivere ssh -p xxx pi@usersif.ddns.net
