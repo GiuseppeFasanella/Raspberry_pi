@@ -22,7 +22,7 @@ xrdp sesman.  This shows you that xrdp is installed and automatically starting u
 
 A  questo punto puoi usare da ubuntu "Remmina" e condividere la schermata del raspberry
 
-
+Setta tutto per per poter montare l'hd esterno da 1.5 T
 
 https://www.raspberrypi.org/help/
 
