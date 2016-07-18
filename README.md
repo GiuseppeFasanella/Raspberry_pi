@@ -24,6 +24,9 @@ Reindirizza la porta 80 per andare sul raspberry --> cosi' sul browser puoi scri
 Installa apache server e proteggi il tuo sito
 https://github.com/GiuseppeFasanella/My_utilities/blob/master/Networks/Apache_server.md
 
+Copia la repository del suo sito e setta tutti i soft link ecc
+https://github.com/GiuseppeFasanella/Web_site_apache/README.md
+
 Setta tutto per remote desktop viewer:
 ```
 (sul raspberry)
