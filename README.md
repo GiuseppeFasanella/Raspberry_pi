@@ -2,6 +2,10 @@
 
 Connetti il raspberry al modem tramite l'ethernet
 
+sudo apt-get install emacs
+
+sudo apt-get install git
+
 cambia la passwd di pi e di root:
 ```
 #cambia la password di pi
