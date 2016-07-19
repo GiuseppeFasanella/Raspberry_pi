@@ -31,8 +31,8 @@ Installa php, mysql, ecc:
 
 https://github.com/GiuseppeFasanella/DataBase_utilities/tree/master/Interfaccia_php
 
-Creare il database con le sue tabelline:
-https://github.com/GiuseppeFasanella/DataBase_utilities/blob/master/Library/db_library.md
+Preparare il terreno per connetter il db e creare il database con le sue tabelline:
+https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/Database/README.md
 
 Setta tutto per remote desktop viewer:
 ```
