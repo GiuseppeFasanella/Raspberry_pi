@@ -27,6 +27,9 @@ https://github.com/GiuseppeFasanella/My_utilities/blob/master/Networks/Apache_se
 Copia la repository del suo sito e setta tutti i soft link ecc
 https://github.com/GiuseppeFasanella/Web_site_apache/README.md
 
+Installa php, mysql, ecc:
+https://github.com/GiuseppeFasanella/DataBase_utilities/tree/master/Interfaccia_php
+
 Setta tutto per remote desktop viewer:
 ```
 (sul raspberry)
