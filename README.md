@@ -28,7 +28,11 @@ Copia la repository del suo sito e setta tutti i soft link ecc
 https://github.com/GiuseppeFasanella/Web_site_apache/README.md
 
 Installa php, mysql, ecc:
+
 https://github.com/GiuseppeFasanella/DataBase_utilities/tree/master/Interfaccia_php
+
+Creare il database con le sue tabelline:
+https://github.com/GiuseppeFasanella/DataBase_utilities/blob/master/Library/db_library.md
 
 Setta tutto per remote desktop viewer:
 ```
