@@ -27,7 +27,7 @@ create table autore(nome VARCHAR(60) NOT NULL, autore_id INT UNSIGNED NOT NULL A
 alter table autore add constraint unique_name unique(nome); 
 create table libro_autore(libro_id int unsigned not null, autore_id int unsigned not null, primary key(libro_id,autore_id));
 
-mysql> create user 'usersif'@'%' IDENTIFIED BY 'Hannibal123'
+mysql> create user 'usersif'@'%' IDENTIFIED BY 'H**123';
 mysql> grant all privileges on *.* to 'usersif'@'%' with grant option;
 
 mysql> create user 'root'@'Freebox-Server.local' IDENTIFIED BY 'H**123';
