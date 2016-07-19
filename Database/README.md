@@ -30,8 +30,7 @@ create table libro_autore(libro_id int unsigned not null, autore_id int unsigned
 mysql> create user 'usersif'@'%' IDENTIFIED BY 'Hannibal123'
 mysql> grant all privileges on *.* to 'usersif'@'%' with grant option;
 
-mysql> create user 'root'@'Freebox-Server.local' IDENTIFIED BY 'H**123'
-    -> ;
+mysql> create user 'root'@'Freebox-Server.local' IDENTIFIED BY 'H**123';
 mysql> grant all privileges on *.* to 'root'@'Freebox-Server.local' with grant option;
 Query OK, 0 rows affected (0.00 sec)
 
