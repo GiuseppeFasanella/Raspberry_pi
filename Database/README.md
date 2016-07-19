@@ -1,3 +1,4 @@
+```
 Installa apache2
 
 Installa php
@@ -8,12 +9,15 @@ sudo service apache2 restart
 Installa mysql-server
 sudo apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql
 sudo service apache2 restart
+```
 
-
+```
 sudo emacs /etc/mysql/my.cnf
 bind-address            = 192.168.1.12
 sudo service apache2 restart
+```
 
+```
 mysql -u root -p
 CREATE DATABASE Library;
 USE Library;
@@ -36,3 +40,4 @@ ErrorCan't connect to MySQL server on 'usersif.ddns.net' (111)
 mysql> SHOW VARIABLES WHERE Variable_name = 'port';
 
 --> Reindirizza la porta 3306 dal modem al raspberry (e' la porta di default di mysql server)
+```
