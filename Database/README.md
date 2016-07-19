@@ -13,7 +13,7 @@ sudo service apache2 restart
 
 ```
 sudo emacs /etc/mysql/my.cnf
-bind-address            = 192.168.1.12
+bind-address            = 192.168.1.12 (oppure 192.168.1.29) ==> ovvero l'inet del raspberry
 sudo service apache2 restart
 ```
 
