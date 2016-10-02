@@ -9,7 +9,7 @@ sudo apt-get install git
 cambia la passwd di pi e di root:
 ```
 #cambia la password di pi
-passwd
+passwd (La password di default al primo accesso e' raspberry)
 #Per cambiare la password di root:
 sudo su (cosi' via in root)
 passwd
