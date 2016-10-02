@@ -31,6 +31,9 @@ Installa php, mysql, ecc:
 
 https://github.com/GiuseppeFasanella/DataBase_utilities/tree/master/Interfaccia_php
 
+Installare l'hd esterno:
+https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/hd_esterno.md
+
 Preparare il terreno per connetter il db e creare il database con le sue tabelline:
 https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/Database/README.md
 
