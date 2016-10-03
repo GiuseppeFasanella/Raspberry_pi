@@ -55,9 +55,9 @@ wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Dom
 chmod +x
 sudo ./relay_on.py
 ```
-####Far accendere un LED tramite php e apache
+####Far accendere un LED tramite php e apache (prototipo per cose piu' complesse)
 Usi un php come questo sul sito apache
-https://github.com/GiuseppeFasanella/Web_site_apache/blob/master/light_project/php_launcher.php
+https://github.com/GiuseppeFasanella/Web_site_apache/blob/master/light_project/
 
 che chiama un .sh come questo
 
