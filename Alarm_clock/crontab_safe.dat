@@ -1,0 +1,4 @@
+14 7 * * 1-5 /home/pi/Desktop/Sveglia_mattutina/alarm_clock_pi.sh /var/www/usb_drive_soft_link/Film,Musica,Libri,Partiture/Libri/Audiolibri/Pasolini/Ragazzi_di_vita/
+14 8 * * 1-5 /home/pi/Desktop/Sveglia_mattutina/killer_alarm_pi.sh
+00 11 * * 6-7 /home/pi/Desktop/Sveglia_mattutina/alarm_clock_pi.sh /var/www/usb_drive_soft_link/Film,Musica,Libri,Partiture/Libri/Audiolibri/Pasolini/Ragazzi_di_vita/
+00 12 * * 6-7 /home/pi/Desktop/Sveglia_mattutina/killer_alarm_pi.sh
