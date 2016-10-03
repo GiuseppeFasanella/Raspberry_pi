@@ -46,6 +46,13 @@ wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/LED
 chmod +x LED.py
 python LED.py
 ```
+####Gioca con il relay
+```
+wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Domotica/Relay/relay_off.py
+wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Domotica/Relay/relay_on.py
+chmod +x
+sudo ./relay_on.py
+```
 * radio
 
 In teoria ci sarei riuscito, ma non funziona bene vlc su raspbian, ne' lo streaming delle radio
