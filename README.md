@@ -39,6 +39,8 @@ https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/hd_esterno.md
 ####Sveglia mattutina
 https://github.com/GiuseppeFasanella/Raspberry_pi/tree/master/Sveglia_mattutina
 
+####Sensore di temperatura
+https://github.com/GiuseppeFasanella/Raspberry_pi/tree/master/Sensore_temperatura
 
 ####Gioca con il LED
 ```
