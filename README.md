@@ -36,7 +36,17 @@ https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/Database/README.md
 Installare l'hd esterno:
 https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/hd_esterno.md
 
+####Sveglia mattutina
+https://github.com/GiuseppeFasanella/Raspberry_pi/tree/master/Alarm_clock
 
+* radio
+
+In teoria ci sarei riuscito, ma non funziona bene vlc su raspbian, ne' lo streaming delle radio
+
+* ear training
+* sensore di temperatura
+
+####Extra
 
 Setta tutto per remote desktop viewer:
 ```
@@ -48,16 +58,5 @@ xrdp sesman.  This shows you that xrdp is installed and automatically starting u
 
 A  questo punto puoi usare da ubuntu "Remmina" e condividere la schermata del raspberry
 
-Setta tutto per per poter montare l'hd esterno da 1.5 T
 
-https://www.raspberrypi.org/help/
 
-Progetti che ho realizzato:
-
-* sveglia mattutina
-* radio
-
-In teoria ci sarei riuscito, ma non funziona bene vlc su raspbian, ne' lo streaming delle radio
-
-* ear training
-* sensore di temperatura
