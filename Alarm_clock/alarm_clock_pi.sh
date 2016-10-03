@@ -12,8 +12,7 @@ play(){
 
 	#if size of list.dat is 0 (you have just removed the last .mp3 in the list): re-generate list.dat
 	if [ ! -s list.dat ]; then
-	    #ls -v > list.dat; sed -i "/list.dat/d" list.dat
-	    cp full_list.dat list.dat; 
+	    ls -v > list.dat; sed -i "/list.dat/d" list.dat
 	fi
     done
 }
@@ -23,8 +22,7 @@ if [ -e list.dat ] && [ -s list.dat ];then
     play $1
 else
     #ls -v: numerical order
-    #ls -v > list.dat; sed -i "/list.dat/d" list.dat;
-    cp full_list.dat list.dat; 
+    ls -v > list.dat; sed -i "/list.dat/d" list.dat;
     #list.dat should not be in the list of files                                                                                                                               
     play $1
 fi
