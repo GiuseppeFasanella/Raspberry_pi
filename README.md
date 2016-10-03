@@ -61,12 +61,13 @@ https://github.com/GiuseppeFasanella/Web_site_apache/blob/master/light_project/
 dove una pagina in php a cui si arriva tramite il sito internet apache presenta due bottoncini "accendi" - "spegni" che servono per chiamare due appositi script in .py
 
 La particolarita' e' che bisogna fare `sudo visudo` e dare permessi di ROOT senza password all'utente generico di apache chiamato www-data (non ho trovato soluzioni migliori)
-* radio
+* ear training
 
+* radio
 In teoria ci sarei riuscito, ma non funziona bene vlc su raspbian, ne' lo streaming delle radio
 
-* ear training
-* sensore di temperatura
+
+
 
 ####Extra
 
