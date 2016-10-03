@@ -37,8 +37,15 @@ Installare l'hd esterno:
 https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/hd_esterno.md
 
 ####Sveglia mattutina
-https://github.com/GiuseppeFasanella/Raspberry_pi/tree/master/Alarm_clock
+https://github.com/GiuseppeFasanella/Raspberry_pi/tree/master/Sveglia_mattutina
 
+
+####Gioca con il LED
+```
+wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/LED/LED.py
+chmod +x LED.py
+python LED.py
+```
 * radio
 
 In teoria ci sarei riuscito, ma non funziona bene vlc su raspbian, ne' lo streaming delle radio
