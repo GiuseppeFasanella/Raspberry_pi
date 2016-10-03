@@ -24,6 +24,17 @@ chmod +x killer_alarm_pi.sh
     
   \</keyboard>
 
+**Passo 3**: Controlla data e ora 
+```
+timedatectl
+```
+
+Puoi impostarla a mano brute force con:
+```
+sudo date 10031516
+#sudo date mmggorario
+#Quindi qui sto dicendo: e' il 3 ottobre, ore 15:16
+```
 
 `crontab -e` e aggiungi questi job
 
