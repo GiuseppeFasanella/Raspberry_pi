@@ -55,6 +55,12 @@ wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Dom
 chmod +x
 sudo ./relay_on.py
 ```
+####Far accendere un LED tramite php e apache
+Usi un php come questo sul sito apache
+https://github.com/GiuseppeFasanella/Web_site_apache/blob/master/light_project/php_launcher.php
+
+che chiama un .sh come questo
+
 * radio
 
 In teoria ci sarei riuscito, ma non funziona bene vlc su raspbian, ne' lo streaming delle radio
