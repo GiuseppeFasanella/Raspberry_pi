@@ -56,11 +56,11 @@ chmod +x
 sudo ./relay_on.py
 ```
 ####Far accendere un LED tramite php e apache (prototipo per cose piu' complesse)
-Usi un php come questo sul sito apache
 https://github.com/GiuseppeFasanella/Web_site_apache/blob/master/light_project/
 
-che chiama un .sh come questo
+dove una pagina in php a cui si arriva tramite il sito internet apache presenta due bottoncini "accendi" - "spegni" che servono per chiamare due appositi script in .py
 
+La particolarita' e' che bisogna fare `sudo visudo` e dare permessi di ROOT senza password all'utente generico di apache chiamato www-data (non ho trovato soluzioni migliori)
 * radio
 
 In teoria ci sarei riuscito, ma non funziona bene vlc su raspbian, ne' lo streaming delle radio
