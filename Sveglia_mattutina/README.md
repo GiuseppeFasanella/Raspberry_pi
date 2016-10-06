@@ -6,6 +6,7 @@ wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Ala
 wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Alarm_clock/killer_alarm_pi.sh .
 chmod +x alarm_clock_pi.sh
 chmod +x killer_alarm_pi.sh
+sudo timedatectl set-timezone Europe/Rome
 ```
 
 **Passo 2**: Keyboard binding in /home/pi/.config/openbox/lxde-pi-rc.xml
