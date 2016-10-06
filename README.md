@@ -36,6 +36,9 @@ https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/Database/README.md
 Installare l'hd esterno:
 https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/hd_esterno.md
 
+Caricarsi gli shortcut che ho definito per la tastiera:
+https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/keyboard_bindings/shortcut.md
+
 ####Sveglia mattutina
 https://github.com/GiuseppeFasanella/Raspberry_pi/tree/master/Sveglia_mattutina
 
