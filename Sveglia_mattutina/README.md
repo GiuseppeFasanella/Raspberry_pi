@@ -2,9 +2,9 @@
 cd Desktop/
 mkdir Sveglia_mattutina
 cd Sveglia_mattutina/
-wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Alarm_clock/alarm_clock_pi.sh 
-wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Alarm_clock/killer_alarm_pi.sh 
-wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Alarm_clock/play_this.sh 
+wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Sveglia_mattutina/alarm_clock_pi.sh 
+wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Sveglia_mattutina/killer_alarm_pi.sh 
+wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Sveglia_mattutina/play_this.sh
 
 chmod +x alarm_clock_pi.sh
 chmod +x killer_alarm_pi.sh
