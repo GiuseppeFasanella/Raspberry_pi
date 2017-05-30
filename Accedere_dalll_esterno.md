@@ -5,8 +5,10 @@ Quando l'hai scoperto scopri su quale porta hai impostato il protocollo ssh (di 
 `emacs /etx/ssh/sshd_config`
 
 Ora sei pronto per:
-
-`ssh -p port_number pi@192.168.1.12`
+```
+ssh -p port_number pi@192.168.1.12
+#ovviamente da un device client
+```
 
 Quando avrai impostato NOIP potrai fare cosi':
 
