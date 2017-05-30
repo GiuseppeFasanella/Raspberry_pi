@@ -62,8 +62,8 @@ monta /dev/sda1 nella cartella /mnt/usb_drive, ricordati che e' ntfs e dai perme
 ```
 
 Puoi montare l'hd remoto in locale tramite 2 meccanismi:
-* sshfs
-* samba
+* sshfs --> questo vale se il client e' un pc
+* samba --> questo se il client e' un piu' generico cellulare, ipad,...
 
 ```
 sshfs -p XXX root@usersif.ddns.net:/var/www/usb_drive_soft_link/Film,Musica,Libri,Partiture/ /home/gfasanel/Scrivania/remote_dir/
@@ -83,7 +83,8 @@ sudo emacs smb.conf
 security = user
 sudo /etc/init.d/samba restart
 
-Crea un utente Samba (nome a tua scelta) e dagli una passwd
+Associa una passwd samba a un utente UNIX presente sul server
+Ad esempio io sul raspberry ho pi (e root) come utenti, quindi associo una passwd (per il protocollo smb) all'utente pi 
 sudo smbpasswd -a pi
 ```
 
