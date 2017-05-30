@@ -136,3 +136,5 @@ guest ok = yes
 writeable = yes
 ```
 avendo gia' dato permessi rw alla cartella dove e' montato l'hd.
+
+A questo punto tramite VLC -> rete locale puoi navigare a tuo piacere
