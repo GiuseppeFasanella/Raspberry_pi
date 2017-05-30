@@ -134,6 +134,9 @@ comment = external HD share
 path = /mnt/usb_drive
 guest ok = yes
 writeable = yes
+
+salva, chiudi e
+sudo /etc/init.d/samba restart
 ```
 avendo gia' dato permessi rw alla cartella dove e' montato l'hd.
 
