@@ -85,7 +85,9 @@ sudo /etc/init.d/samba restart
 
 Associa una passwd samba a un utente UNIX presente sul server
 Ad esempio io sul raspberry ho pi (e root) come utenti, quindi associo una passwd (per il protocollo smb) all'utente pi 
+
 sudo smbpasswd -a pi
+#a questo punto ti chiedera' di inserire la password e confermarla
 ```
 
 L'idea e' quella di modificare il /etc/conf/smb.conf dicendo cosa sharare e come e poi fare `sudo service samba restart`
