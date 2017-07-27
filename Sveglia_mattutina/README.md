@@ -55,7 +55,7 @@ sudo date 10031516
 non sentivo nulla, ma il job non falliva, semplicemente l'audio non era ridiretto correttamente.
 e' bastato scrivere cosi': DISPLAY=:0.0
 
-09 23 * * 1-5 DISPLAY=:0.0 /home/gfasanel/Sveglia_mattutina/alarm_clock_pi.sh /home/gfasanel/Scaricati/Frankenstein_1816
+09 23 * * 1-5 DISPLAY=:0.0 /home/gfasanel/Sveglia_mattutina/alarm_clock_pi.sh /home/gfasanel/Scaricati/Frankenstein_1816/
 
 Infine per debuggare puo' essere utile 
 vlc -vvv rtsp://your.url 2>&1 > /tmp/vlc.log
