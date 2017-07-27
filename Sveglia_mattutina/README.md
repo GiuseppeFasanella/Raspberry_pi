@@ -7,6 +7,7 @@ wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Sve
 wget https://raw.githubusercontent.com/GiuseppeFasanella/Raspberry_pi/master/Sveglia_mattutina/play_this.sh
 
 chmod +x alarm_clock_pi.sh
+#In alarm_clock fai la scelta del lettore omxplayer in questo caso
 chmod +x killer_alarm_pi.sh
 chmod +x play_this.sh
 sudo timedatectl set-timezone Europe/Rome
