@@ -1,5 +1,9 @@
 crontab -e
 
+```
+36 7 * * 1-5 DISPLAY=:0.0 /home/gfasanel/Sveglia_mattutina/alarm_clock_pi.sh /home/gfasanel/Scaricati/Frankenstein_1816/
+```
+
 ![alt tag] (https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/img/output_cron.png)
 
 Credo che si possa anche semplicemente fare aggiungendo la `&` prima del `>`
