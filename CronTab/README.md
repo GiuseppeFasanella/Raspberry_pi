@@ -6,6 +6,10 @@ crontab -e
 
 ![alt tag] (https://github.com/GiuseppeFasanella/Raspberry_pi/blob/master/img/output_cron.png)
 
+DEBUGGARE
+
+* * * * python (full_path)script.py > (full_path)file_debug.txt 2>&1 (cioe' dumpi l'output su un file da te specificato
+
 Credo che si possa anche semplicemente fare aggiungendo la `&` prima del `>`
 
 `script.sh &> debug.txt`
